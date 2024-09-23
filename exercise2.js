@@ -27,6 +27,6 @@ class Pet {
 const namesList = function () {
   pets.forEach((pet) => {
     const listItem = document.createElement("li");
-    listItem.innerText = "Name: "+;
+    listItem.innerText = `Pet's name: ${}`
   });
 };
